@@ -89,6 +89,10 @@ function displayCityName(str) {
 Create a function to calculate the sum of three elements of a given array of integers of length 3.
 */
 
+function calculateArray(arr) {
+  return arr[0] + arr[1] + arr[2];
+}
+
 /*
 
 9)
