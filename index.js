@@ -36,6 +36,10 @@ function removeChar(str, pos) {
  Create a function to find the largest of three given integers.
 */
 
+function findLargest(a, b, c) {
+  return Math.max(a, b, c);
+}
+
 /*
 5)
 Create a function to check whether two numbers are in range 40..60 or in the range 70..100 inclusive.
