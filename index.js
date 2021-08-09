@@ -62,6 +62,14 @@ function checkRange(a, b) {
 Create a function to create a new string of specified copies (positive number) of a given string.
 */
 
+function copieString(num, str) {
+  if (num > 0) {
+    return str.repeat(num);
+  } else {
+    console.log("negative number");
+  }
+}
+
 /*
 
 7)
