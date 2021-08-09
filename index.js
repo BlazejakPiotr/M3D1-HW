@@ -76,6 +76,14 @@ function copieString(num, str) {
 Create a function to display the city name if the string begins with "Los" or "New" otherwise return blank.
 */
 
+function displayCityName(str) {
+  if (str.includes("Los") || str.includes("New")) {
+    return str;
+  } else {
+    return " ";
+  }
+}
+
 /*
 8)
 Create a function to calculate the sum of three elements of a given array of integers of length 3.
