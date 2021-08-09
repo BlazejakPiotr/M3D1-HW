@@ -45,6 +45,17 @@ function findLargest(a, b, c) {
 Create a function to check whether two numbers are in range 40..60 or in the range 70..100 inclusive.
 */
 
+function checkRange(a, b) {
+  if (
+    (a >= 40 && a <= 60 && b >= 40 && b <= 60) ||
+    (a >= 70 && a <= 100 && b >= 70 && b <= 100)
+  ) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 /*
 6) 
 
