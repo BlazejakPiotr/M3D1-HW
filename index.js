@@ -99,6 +99,14 @@ function calculateArray(arr) {
 Create a function to test whether an array of integers of length 2 contains 1 or a 3. 
 */
 
+function contains1or3(arr) {
+  if (arr.includes(1) || arr.includes(3)) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 /*
 
 10)
